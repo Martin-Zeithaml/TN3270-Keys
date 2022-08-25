@@ -1,0 +1,37 @@
+{ "keySequences":                                                   
+  [                                                                 
+    { "title": "SWAP",                                              
+      "description": "ISPF: SWAP NEXT command",                     
+       "keys": [ { "special": "Home" },                             
+                 { "normal":  "E", "ctrl": "true" },                
+                 { "normal":  "SWAP NEXT" },                        
+                 { "special": "Enter" }                             
+               ]                                                    
+    },                                                              
+                                                                    
+    { "title": "DS",                                            
+      "description": "ISPF: Start, P.3.4: SOME.DATASET",            
+       "keys": [ { "special": "Home" },                             
+                 { "normal":  "E", "ctrl": "true" },                
+                 { "normal":  "START" },                            
+                 { "special": "Enter" },                            
+                 { "normal":  "P.3.4" },                            
+                 { "special": "Enter" },                            
+                 { "special": "Tab" },                              
+                 { "normal":  "SOME.DATASET " },                    
+                 { "special": "Enter" }                             
+               ]                                                    
+    },                                                              
+                                                                                           
+    { "title": "Srchfor",                                           
+      "description": "ISPF: srchfor 'string'",                      
+       "keys": [ { "special": "Home" },                             
+                 { "normal":  "E", "ctrl": "true" },                
+                 { "normal":  "srchfor '" },                        
+                 { "prompt": "String to find" },                    
+                 { "normal":  "'" },                                
+                 { "special": "Enter" }                             
+               ]                                                    
+    }                                                               
+  ]                                                                 
+}                                                                   
