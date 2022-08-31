@@ -10,6 +10,15 @@
       ]
     },
     {
+      "title":"START", "description":"ISPF: START new ISPF panel",
+      "keys":[
+        { "special":"Home" },
+        { "normal":"E", "ctrl":"true" },
+        { "normal":"START" },
+        { "special":"Enter" }
+      ]
+    },    
+    {
       "title":"DS", "description":"ISPF: Start, P.3.4: SOME.DATASET",
       "keys":[
         { "special":"Home" },
@@ -31,6 +40,44 @@
         { "normal":"srchfor '" },
         { "prompt":"String to find" },
         { "normal":"'" },
+        { "special":"Enter" }
+      ]
+    },
+    {
+      "title":"SORT PROMPT", "description":"ISPF: sort prompt",
+      "keys":[
+        { "special":"Home" },
+        { "normal":"E", "ctrl":"true" },
+        { "normal":"sort prompt" },
+        { "special":"Enter" }
+      ]
+    },    
+    {
+      "title":"*:ZW*", "description":"SYSVIEW: owner *; prefix ZW*",
+      "keys":[
+        { "special":"Home" },
+        { "normal":"E", "ctrl":"true" },
+        { "normal":"owner *; prefix ZWE*" },
+        { "special":"Enter" }
+      ]
+    },
+    {
+      "title":"USERID:*", "description":"SYSVIEW: owner USERID; prefix *",
+      "keys":[
+        { "special":"Home" },
+        { "normal":"E", "ctrl":"true" },
+        { "normal":"owner USERID; prefix *" },
+        { "special":"Enter" }
+      ]
+    },
+    {
+      "title":"F&X", "description":"ISPF Editor: find string and hide the rest",
+      "keys":[
+        { "special":"Home" },
+        { "normal":"E", "ctrl":"true" },
+        { "normal":"x all; find '" },
+        { "prompt":"String to find" },
+        { "normal":"' all; hide x" },
         { "special":"Enter" }
       ]
     }
